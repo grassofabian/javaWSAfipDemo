@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/Factura Electronica/pruebaWS/lib/activation.jar"/>
+	<classpathentry kind="lib" path="E:/Factura Electronica/pruebaWS/lib/axis-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Factura Electronica/pruebaWS/lib/bcmail-jdk16-1.40.jar"/>
+	<classpathentry kind="lib" path="E:/Factura Electronica/pruebaWS/lib/bcprov-jdk16-1.45.jar"/>
+	<classpathentry kind="lib" path="E:/Factura Electronica/pruebaWS/lib/commons-discovery-0.5.jar"/>
+	<classpathentry kind="lib" path="E:/Factura Electronica/pruebaWS/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/Factura Electronica/pruebaWS/lib/dom4j-1.5.jar"/>
+	<classpathentry kind="lib" path="E:/Factura Electronica/pruebaWS/lib/itextpdf-5.5.9.jar"/>
+	<classpathentry kind="lib" path="E:/Factura Electronica/pruebaWS/lib/javax.xml.rpc-3.1.jar"/>
+	<classpathentry kind="lib" path="E:/Factura Electronica/pruebaWS/lib/jaxen-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/Factura Electronica/pruebaWS/lib/jaxrpc-api.jar"/>
+	<classpathentry kind="lib" path="E:/Factura Electronica/pruebaWS/lib/mail.jar"/>
+	<classpathentry kind="lib" path="E:/Factura Electronica/pruebaWS/lib/saaj-api-1.3.1.jar"/>
+	<classpathentry kind="lib" path="E:/Factura Electronica/pruebaWS/lib/wsdl4j.jar"/>
+	<classpathentry kind="lib" path="E:/Factura Electronica/pruebaWS/lib/javaWSAfip.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
