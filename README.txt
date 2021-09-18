@@ -1,6 +1,8 @@
 # javaWSAfipDemo
 Código de ejemplo para el uso de la librería javaWSAfip.
 
+Unase a nuestro grupo para realizar consultas, pedir ayuda u opinar sobre la librería. Link del grupo para unirse: https://groups.google.com/g/javaWSAfip
+
 El certificado digital .pfx es para test, es el mío para que prueben la librería. Pueden usar el de Ustedes si lo desean.
 
 Directorios importantes y archivo de configuración que deben existir sí o sí en la raiz del proyecto que uds. realicen:
