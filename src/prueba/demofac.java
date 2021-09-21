@@ -73,28 +73,28 @@ public class demofac {
 	        wsfe.Tributo_Desc="Impuestos Nacionales";
 	        wsfe.Tributo_baseImp=wsfe.totlizar_neto(); //la Base imponible es el total de los importes netos de la factura
 	        wsfe.Tributo_alicuota=5.2;
-	        wsfe.Tributo_Importe=wsfe.fd((wsfe.totlizar_neto())*0.052,2);
+	        wsfe.Tributo_Importe=wsfe.fd((wsfe.totlizar_neto())*(wsfe.Tributo_alicuota/100),2);
 	        wsfe.tributosCargar(1);
 	        
 	        wsfe.Tributo_codigo="2";
 	        wsfe.Tributo_Desc="Impuestos provinciales";
 	        wsfe.Tributo_baseImp=wsfe.totlizar_neto(); //la Base imponible es el total de los importes netos de la factura
 	        wsfe.Tributo_alicuota=4;
-	        wsfe.Tributo_Importe=wsfe.fd((wsfe.totlizar_neto())*0.04,2);
+	        wsfe.Tributo_Importe=wsfe.fd((wsfe.totlizar_neto())*(wsfe.Tributo_alicuota/100),2);
 	        wsfe.tributosCargar(2);
 	        
 	        wsfe.Tributo_codigo="3";
 	        wsfe.Tributo_Desc="Impuestos municipales";
 	        wsfe.Tributo_baseImp=wsfe.totlizar_neto(); //la Base imponible es el total de los importes netos de la factura
 	        wsfe.Tributo_alicuota=1.5;
-	        wsfe.Tributo_Importe=wsfe.fd((wsfe.totlizar_neto())*0.015,2);
+	        wsfe.Tributo_Importe=wsfe.fd((wsfe.totlizar_neto())*(wsfe.Tributo_alicuota/100),2);
 	        wsfe.tributosCargar(3);
 	        
 	        wsfe.Tributo_codigo="4";
 	        wsfe.Tributo_Desc="Impuestos Internos";
 	        wsfe.Tributo_baseImp=wsfe.totlizar_neto(); //la Base imponible es el total de los importes netos de la factura
 	        wsfe.Tributo_alicuota=1.5;
-	        wsfe.Tributo_Importe=wsfe.fd((wsfe.totlizar_neto())*0.015,2);
+	        wsfe.Tributo_Importe=wsfe.fd((wsfe.totlizar_neto())*(wsfe.Tributo_alicuota/100),2);
 	        wsfe.tributosCargar(4);
 	        //
 	        }
@@ -121,6 +121,13 @@ public class demofac {
 	        wsfe.Lineas_Total=300;
 	        wsfe.lineasCargar_I(2);
 	        
+	      //Agrego impuestos
+	        wsfe.Tributo_codigo="1";
+	        wsfe.Tributo_Desc="Impuestos Nacionales";
+	        wsfe.Tributo_baseImp=wsfe.totlizar_neto(); //la Base imponible es el total de los importes netos de la factura
+	        wsfe.Tributo_alicuota=5.2;
+	        wsfe.Tributo_Importe=wsfe.fd((wsfe.totlizar_neto())*(wsfe.Tributo_alicuota/100),2);
+	        wsfe.tributosCargar(1);
 	       
 	        //
 	        }
